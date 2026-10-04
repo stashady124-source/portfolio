@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shady Mohamed - Front-End Web Developer & UI Specialist Portfolio" />
+    <meta name="author" content="Shady Mohamed" />
+    <title>Shady Mohamed | Front-End Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <header class="header" id="header">
+        <a href="#home" class="logo">
+            <span>&lt;</span> <span>SM</span> <span>/&gt;</span>
+        </a>
+        
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="theme-btn" id="themeBtn" aria-label="Change theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <a href="#contact" class="header-btn">
+                <i class="fa-regular fa-message"></i> Let's Talk
+            </a>
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="hero section" id="home">
+            <div class="hero-grid">
+                <!-- HERO CONTENT -->
+                <div class="hero-content reveal">
+                    <div class="terminal-badge">
+                        <span class="status-dot"></span>
+                        <span> FRONT-END DEVELOPER // UI SPECIALIST </span>
+                    </div>
+
+                    <p class="hero-small-title">Hello, I'm</p>
+                    <h1> Shady <span>Mohamed</span> </h1>
+                    <h2> Front-End <span id="typingText"></span> </h2>
+
+                    <p class="hero-description">
+                        Passionate Front-End Developer crafting responsive, performant, and visually appealing web applications with modern web technologies.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- HERO IMAGE -->
+                <div class="hero-visual reveal">
+                    <div class="hero-image-wrapper">
+                        <div class="image-grid-effect"></div>
+                        <img src="images/WhatsApp Image 2026-10-04 at 7.26.00 PM.jpeg" alt="Front-End Developer Shady Mohamed" class="hero-image" />
+                        <div class="hero-image-overlay"></div>
+
+                        <div class="image-label">
+                            <span class="label-dot"></span>
+                            <div>
+                                <strong>WEB DEVELOPMENT</strong>
+                                <small>REACT & MODERN UI</small>
+                            </div>
+                        </div>
+
+                        <div class="image-status">
+                            <i class="fa-solid fa-code"></i>
+                            <div>
+                                <strong>DEV STATUS</strong>
+                                <span>BUILDING</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <i class="fa-brands fa-react"></i>
+                        <div>
+                            <strong>ReactJS</strong>
+                            <span>Frontend</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <strong>Responsive</strong>
+                            <span>Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-down">
+                <span>Scroll Down</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+            <div class="section-heading reveal">
+                <span>01 // ABOUT</span>
+                <h2> Clean code and high performance. <br /> <strong>It's an art.</strong> </h2>
+            </div>
+
+            <div class="about-grid">
+                <!-- ABOUT IMAGE -->
+                <div class="about-image-container reveal">
+                    <div class="about-image-frame">
+                        <img src="images/WhatsApp Image 2026-10-04 at 7.26.00 PM.jpeg" alt="Shady Mohamed - Front-End Developer" class="about-image" />
+                        <div class="about-image-overlay"></div>
+                        <div class="about-image-corner corner-top"></div>
+                        <div class="about-image-corner corner-bottom"></div>
+
+                        <div class="about-image-info">
+                            <strong>Shady Mohamed</strong>
+                            <span> Front-End / Web Developer </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT TEXT -->
+                <div class="about-text reveal">
+                    <p class="lead">
+                        I'm <strong>Shady Mohamed</strong>, a dedicated Front-End Developer focused on building interactive, user-friendly, and responsive web applications.
+                    </p>
+                    <p>
+                        My focus is on transforming UI/UX designs into pixel-perfect web interfaces using HTML5, CSS3, JavaScript, and modern frameworks like React.js and Tailwind CSS.
+                    </p>
+                    <p>
+                        I constantly update my skills through real-world projects, performance optimization, and learning modern web development practices to deliver seamless user experiences.
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                        Download CV <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+
+                <!-- ABOUT INFORMATION -->
+                <div class="about-info reveal">
+                    <div class="info-item">
+                        <span>Name</span>
+                        <strong>Shady Mohamed</strong>
+                    </div>
+                    <div class="info-item">
+                        <span>Role</span>
+                        <strong> Front-End Developer </strong>
+                    </div>
+                    <div class="info-item">
+                        <span>Location</span>
+                        <strong>Egypt</strong>
+                    </div>
+                    <div class="info-item">
+                        <span>Email</span>
+                        <strong>shadymohamed@example.com</strong>
+                    </div>
+                    <div class="info-item">
+                        <span>Availability</span>
+                        <strong class="available">
+                            <i class="fa-solid fa-circle"></i> Available for hire
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STATS -->
+            <div class="stats reveal">
+                <div class="stat">
+                    <strong class="counter" data-target="2"> 0 </strong> <span>+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat">
+                    <strong class="counter" data-target="20"> 0 </strong> <span>+</span>
+                    <p>Web Projects</p>
+                </div>
+                <div class="stat">
+                    <strong class="counter" data-target="15"> 0 </strong> <span>+</span>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat">
+                    <strong class="counter" data-target="8"> 0 </strong> <span>+</span>
+                    <p>Tech Stack Tools</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SERVICES ================= -->
+        <section class="services section" id="services">
+            <div class="section-heading center reveal">
+                <span>02 // SERVICES</span>
+                <h2>What I <strong>Do</strong></h2>
+                <p>Front-end development capabilities and web solutions.</p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <span class="service-number">01</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Building modern, fast, and interactive web pages using HTML5, CSS3, JavaScript, and React.
+                    </p>
+                    <div class="service-tags">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <span class="service-number">02</span>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Ensuring websites look perfect and perform flawlessly across all screen sizes and mobile devices.
+                    </p>
+                    <div class="service-tags">
+                        <span>Mobile-First</span>
+                        <span>Tailwind</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <span class="service-number">03</span>
+                    <h3>UI/UX Conversion</h3>
+                    <p>
+                        Converting Figma, Adobe XD, and Photoshop mockups into clean, semantic, and reusable code.
+                    </p>
+
+                    <div class="service-tags">
+                        <span>Figma to Web</span>
+                        <span>Pixel Perfect</span>
+                        <span>CSS Modules</span>
+                    </div>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <span class="service-number">04</span>
+                    <h3>Performance & SEO</h3>
+                    <p>
+                        Optimizing assets, lazy loading, and writing clean markup for high PageSpeed scores and fast load times.
+                    </p>
+
+                    <div class="service-tags">
+                        <span>Optimization</span>
+                        <span>SEO Best Practices</span>
+                        <span>Clean Code</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="skills section" id="skills">
+            <div class="section-heading reveal">
+                <span>03 // SKILLS</span>
+                <h2>Technical <strong>Stack</strong></h2>
+            </div>
+
+            <div class="skills-layout">
+                <div class="skills-list reveal">
+                    <div class="skill">
+                        <div class="skill-header">
+                            <div>
+                                <i class="fa-brands fa-html5"></i> <span>HTML5 & CSS3 / SCSS</span>
+                            </div>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span data-progress="95"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <div>
+                                <i class="fa-brands fa-js"></i> <span>JavaScript (ES6+)</span>
+                            </div>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span data-progress="85"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <div>
+                                <i class="fa-brands fa-react"></i> <span>React.js</span>
+                            </div>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span data-progress="80"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-header">
+                            <div>
+                                <i class="fa-brands fa-bootstrap"></i> <span>Tailwind CSS & Bootstrap</span>
+                            </div>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span data-progress="90"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-grid reveal">
+                    <div class="tool">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git & GitHub</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-brands fa-npm"></i>
+                        <span>NPM</span>
+                    </div>
+                    <div class="tool">
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>REST API</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EXPERIENCE ================= -->
+        <section class="experience section" id="experience">
+            <div class="section-heading center reveal">
+                <span>04 // JOURNEY</span>
+                <h2>Experience & <strong>Education</strong></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 — Present</div>
+                    <div class="timeline-content">
+                        <span class="timeline-label"> FRONT-END DEVELOPMENT </span>
+                        <h3>Freelance Web Developer</h3>
+                        <h4>SELF-EMPLOYED</h4>
+                        <p>
+                            Building responsive frontend interfaces, landing pages, and interactive web applications for clients using React, Tailwind CSS, and JavaScript.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 — 2025</div>
+                    <div class="timeline-content">
+                        <span class="timeline-label"> TRAINING & TRACKS </span>
+                        <h3>React & Web Development Track</h3>
+                        <h4>DEPI / ACADEMY</h4>
+                        <p>
+                            Studied advanced JavaScript, React.js ecosystem, state management, component architecture, and responsive web design techniques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 — Present</div>
+                    <div class="timeline-content">
+                        <span class="timeline-label"> EDUCATION </span>
+                        <h3>Computer Science / Software Engineering</h3>
+                        <h4>UNIVERSITY</h4>
+                        <p>
+                            Studying core computer science concepts including data structures, algorithms, object-oriented programming, and web engineering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="projects section" id="projects">
+            <div class="section-heading center reveal">
+                <span>05 // PROJECTS</span>
+                <h2>Featured <strong>Projects</strong></h2>
+                <p>A selection of frontend applications and web designs.</p>
+            </div>
+
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="react">React</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal" data-category="react">
+                    <div class="project-image project-image-1">
+                        <div class="project-overlay">
+                            <span>REACT APPLICATION</span>
+                            <h3>E-Commerce Web App</h3>
+                            <p>Modern online store with dynamic product cart, filters, and checkout UI.</p>
+                            <a href="#" aria-label="View project">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <span>REACT</span>
+                            <span>TAILWIND</span>
+                        </div>
+                        <h3>E-Commerce Web App</h3>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="javascript">
+                    <div class="project-image project-image-2">
+                        <div class="project-overlay">
+                            <span>JS WEB APP</span>
+                            <h3>Interactive Dashboard</h3>
+                            <p>Data visualization dashboard built with Vanilla JavaScript and chart libraries.</p>
+                            <a href="#" aria-label="View project">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <span>JAVASCRIPT</span>
+                            <span>CSS3</span>
+                        </div>
+                        <h3>Interactive Dashboard</h3>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="landing">
+                    <div class="project-image project-image-3">
+                        <div class="project-overlay">
+                            <span>UI DESIGN</span>
+                            <h3>SaaS Landing Page</h3>
+                            <p>High-converting SaaS product landing page with dark mode and smooth animations.</p>
+                            <a href="#" aria-label="View project">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <span>HTML5</span>
+                            <span>BOOTSTRAP</span>
+                        </div>
+                        <h3>SaaS Landing Page</h3>
+                    </div>
+                </article>
+
+                <article class="project-card reveal" data-category="react">
+                    <div class="project-image project-image-4">
+                        <div class="project-overlay">
+                            <span>REACT / API</span>
+                            <h3>Movie Streaming UI</h3>
+                            <p>Movie discovery app integrated with TMDB API for fetching real-time media content.</p>
+                            <a href="#" aria-label="View project">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <span>REACT</span>
+                            <span>REST API</span>
+                        </div>
+                        <h3>Movie Streaming UI</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONIAL ================= -->
+        <section class="testimonial section">
+            <div class="section-heading center reveal">
+                <span>06 // FEEDBACK</span>
+                <h2>What People <strong>Say</strong></h2>
+            </div>
+
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <article class="testimonial-card">
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <p>
+                            "Shady delivered a high-quality frontend for our business. His attention to design details and code efficiency was remarkable."
+                        </p>
+                        <div class="person">
+                            <div class="person-avatar">SM</div>
+                            <div>
+                                <strong>Project Manager</strong>
+                                <span>Tech Agency</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <p>
+                            "Very skilled frontend developer! The website loaded fast, was completely responsive, and perfectly matched our Figma design."
+                        </p>
+                        <div class="person">
+                            <div class="person-avatar">AM</div>
+                            <div>
+                                <strong>Client</strong>
+                                <span>E-Commerce Business</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="slider-controls">
+                    <button id="prevTestimonial" aria-label="Previous testimonial">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <div class="slider-dots" id="sliderDots">
+                        <span class="active"></span>
+                        <span></span>
+                    </div>
+                    <button id="nextTestimonial" aria-label="Next testimonial">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="contact section" id="contact">
+            <div class="section-heading center reveal">
+                <span>07 // CONTACT</span>
+                <h2>Let's Work <strong>Together</strong></h2>
+                <p>Have a web project or a job opportunity? Let's talk.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span>Location</span>
+                            <strong>Egypt</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span>Email</span>
+                            <strong>shadymohamed@example.com</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span>Phone</span>
+                            <strong>+20 100 000 0000</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal">
+                    <form id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"> Your Name </label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" />
+                                <small class="error-message"></small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email"> Your Email </label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" />
+                                <small class="error-message"></small>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject"> Subject </label>
+                            <input type="text" id="subject" name="subject" placeholder="Web Development Project" />
+                            <small class="error-message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message"> Message </label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."></textarea>
+                            <small class="error-message"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <p id="formStatus" class="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-logo">
+            <span>&lt;</span> SM <span>/&gt;</span>
+        </div>
+        <p>
+            © <span id="currentYear"></span> Shady Mohamed. All Rights Reserved.
+        </p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-top" id="backTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
